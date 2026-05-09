@@ -58,9 +58,38 @@ button {
   width: 20%;
   padding: 10px 24px;
   color: #ffffff;
-  background: #7c3aed;
+  background: #4f15fb;
   border: none;
   border-radius: 10px;
   cursor: pointer;
   font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #3b0fd1;
+  transform: translateY(-2px);
+}
+
+.caixa-resultado {
+  width: 1400px;
+  display: flex;
+  margin-top: 40px;
+}
+
+.bloco-codigo {
+  width: 30%;
+  background: #0c0c0f;
+  padding: 20px;
+  font-size: 12px;
+  color: #22c55e;
+  white-space: pre-wrap;
+  overflow: auto;
+  height: 600px;
+  border-radius: 12px;
+  border: 1px solid #27272a;
+}
+
+.bloco-site {
+  width: 70%;
 }
