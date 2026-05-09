@@ -73,8 +73,13 @@ button:hover {
 
 .caixa-resultado {
   width: 1400px;
+  background: #111114;
   display: flex;
+  padding: 24px;
   margin-top: 40px;
+  border-radius: 12px;
+  border: 1px solid #27272a;
+  gap: 24px;
 }
 
 .bloco-codigo {
@@ -88,8 +93,16 @@ button:hover {
   height: 600px;
   border-radius: 12px;
   border: 1px solid #27272a;
+  gap: 24px;
 }
 
 .bloco-site {
   width: 70%;
+  background: #3a3a3a;
+  height: 600px;
+  white-space: pre-wrap;
+  overflow: auto;
+  height: 600px;
+  border-radius: 12px;
+  border: 1px solid #27272a;
 }
