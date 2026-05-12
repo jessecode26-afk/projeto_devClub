@@ -13,7 +13,7 @@ O sistema envia o prompt para a API da **Groq** e retorna uma página pronta em 
 
 ## 📸 Preview do Projeto
 
-<img width="100%" src="./assets/preview.png" alt="Preview do projeto"/>
+<img width="100%" src="./assets/previw.png"/>
 
 ---
 
